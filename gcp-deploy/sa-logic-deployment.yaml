@@ -21,7 +21,7 @@ spec:
         app: sa-logic
     spec:
       containers:
-        - image: dddwj/sentiment-analysis-logic
+        - image: gcr.io/ace-tranquility-204117/sentiment-logic
           imagePullPolicy: Always
           name: sa-logic
           ports:

@@ -21,7 +21,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: dddwj/sentiment-analysis-web-app
+      - image: gcr.io/ace-tranquility-204117/sentiment-webapp
         imagePullPolicy: Always
         name: sa-web-app
         env:

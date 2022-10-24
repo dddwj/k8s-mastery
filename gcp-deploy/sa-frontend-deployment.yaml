@@ -21,7 +21,7 @@ spec:
         app: sa-frontend                                  # 6
     spec:
       containers:
-        - image: dddwj/sentiment-analysis-frontend
+        - image: gcr.io/ace-tranquility-204117/sentiment-frontend
           imagePullPolicy: Always                         # 7
           name: sa-frontend
           ports:
